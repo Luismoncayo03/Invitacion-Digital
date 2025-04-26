@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¡Nuestra Historia a Lo Pato!</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; }
+    video { width: 100%; height: 100vh; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+<!-- Animación de After Effects (pantalla completa) -->
+<video autoplay muted id="videoCarta">
+  <source src="https://drive.google.com/uc?export=download&id=1F-mTTABDROCLHj-QVgApo7t3KWFyP6Ta" type="video/mp4">
+</video>
+
+<script>
+  const video = document.getElementById("videoCarta");
+  video.onended = function() {
+    window.location.href = "https://nuestrahistoriaalopato.my.canva.site/"; 
+  };
+</script>
+
+</body>
+</html>
